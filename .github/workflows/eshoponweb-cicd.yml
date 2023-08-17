@@ -4,13 +4,12 @@ name: eShopOnWeb Build and Test
 on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
-#
 env:
   RESOURCE-GROUP: cloud-shell-storage-westeurope
   LOCATION: westeurope
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: b0494b7d-44ad-4019-8f3c-ae45395e6894
-  WEBAPP-NAME: az400-webapp-eShopOnWeb
+  WEBAPP-NAME: GH-Action-eshoponweb
 
 
 jobs:
